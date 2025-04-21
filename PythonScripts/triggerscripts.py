@@ -7,7 +7,7 @@ OWNER= str(sys.argv[2])
 REPO= str(sys.argv[3])
 Workflow_Name= str(sys.argv[4])
 parameter1= str(sys.argv[5])
-parameter2 = str(sys.argv[6])
+parameter2 = str(sys.argv[8])
 
 print( "the toke value is")
 def trigger_workflow(Workflow_Name,parameter1,parameter2):
